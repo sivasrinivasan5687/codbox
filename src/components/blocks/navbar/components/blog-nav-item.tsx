@@ -8,10 +8,10 @@ import { blogsNavigation } from "data/navigation";
 
 export default function BlogNavItem() {
   return (
-    <li className="nav-item dropdown">
-      <DropdownToggleLink title="Blog" className="nav-link dropdown-toggle" />
+    <li className="nav-item ">
+      <DropdownToggleLink title="Work partner" className="nav-link " />
 
-      <ul className="dropdown-menu">
+      {/* <ul className="dropdown-menu">
         {blogsNavigation.map(({ id, url, title, children }) => {
           if (!url && children) {
             return (
@@ -23,7 +23,7 @@ export default function BlogNavItem() {
           }
           return <ListItemLink key={id} href={url} title={title} linkClassName="dropdown-item" />;
         })}
-      </ul>
+      </ul> */}
     </li>
   );
 }

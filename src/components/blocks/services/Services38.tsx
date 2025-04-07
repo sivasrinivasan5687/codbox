@@ -4,10 +4,30 @@ import Compare from "icons/solid-mono/Compare";
 import CloudNetwork2 from "icons/solid/CloudNetwork2";
 
 const services = [
-  { id: 1, Icon: CloudNetwork2, title: "Always up to Date", description: "Fusce dapibus tellus ac cursus commodo." },
-  { id: 2, Icon: Currency, title: "Multiple Currencies", description: "Fusce dapibus tellus ac cursus commodo." },
-  { id: 3, Icon: Lock, title: "Secure Payments", description: "Fusce dapibus tellus ac cursus commodo." },
-  { id: 4, Icon: Compare, title: "Detailed Reports", description: "Fusce dapibus tellus ac cursus commodo." }
+	{
+		id: 1,
+		Icon: CloudNetwork2,
+		title: "Always up to Date",
+		description: "Stay in sync with real-time updates, ensuring your financial operations are fast, reliable, and secure.",
+	},
+	{
+		id: 2,
+		Icon: Currency,
+		title: "Multiple Currencies",
+		description: "Expand globally with ease. Support for various currencies allows you to serve customers without borders.",
+	},
+	{
+		id: 3,
+		Icon: Lock,
+		title: "Secure Payments",
+		description: "Every transaction is protected by top-grade encryption and authentication protocols.",
+	},
+	{
+		id: 4,
+		Icon: Compare,
+		title: "Detailed Reports",
+		description: "Make informed decisions using visualized insights, accessible directly from your dashboard.",
+	},
 ];
 
 export default function Services38() {

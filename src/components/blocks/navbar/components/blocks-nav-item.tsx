@@ -6,9 +6,9 @@ import { blocksNavigation } from "data/navigation";
 
 export default function BlocksNavItem() {
   return (
-    <li className="nav-item dropdown dropdown-mega">
-      <DropdownToggleLink title="Blocks" className="nav-link dropdown-toggle" />
-      <ul className="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
+    <li className="nav-item  dropdown-mega">
+      <DropdownToggleLink title="Blocks" className="nav-link " />
+      {/* <ul className="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
         <li className="mega-menu-content">
           <ul className="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-6 gy-lg-4 list-unstyled">
             {blocksNavigation.map(({ id, thumnail, title, url }) => (
@@ -24,7 +24,7 @@ export default function BlocksNavItem() {
             ))}
           </ul>
         </li>
-      </ul>
+      </ul> */}
     </li>
   );
 }

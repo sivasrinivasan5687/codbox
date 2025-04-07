@@ -8,7 +8,7 @@ export default function CTA14() {
           <div className="col-xl-11 col-xxl-10 mx-auto">
             <h2 className="fs-16 text-uppercase text-primary mb-3">Join Our Community</h2>
             <h3 className="display-2 mb-9 px-xxl-10">
-              We are <span className="underline-3 style-1 primary">trusted</span> by over 5000+ clients. Join them now
+              We are <span className="underline-3 style-1 primary">trusted</span> by over 1000+ clients. Join them now
               and grow your business.
             </h3>
 

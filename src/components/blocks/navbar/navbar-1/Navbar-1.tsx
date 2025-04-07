@@ -57,13 +57,13 @@ export default function NavbarOne({
   const navbarRef = useRef<HTMLElement | null>(null);
 
   // dynamically render the logo
-  const logo = sticky ? "logo-dark" : logoAlt ?? "logo-dark";
+  const logo = sticky ? "EVIANSINTL-LOGO" : logoAlt ?? "EVIANSINTL-LOGO";
 
   // all main header contents
   const headerContent = (
     <Fragment>
       <div className="navbar-brand w-100">
-        <NextLink href="/" title={<img alt="logo" src={`/img/${logo}.png`} srcSet={`/img/${logo}@2x.png 2x`} />} />
+        <NextLink href="/" title={<img style={{width:100,height:80}} alt="logo" src={`/img/${logo}.webp`} srcSet={`/img/${logo}@2x.png 2x`} />} />
       </div>
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
@@ -95,7 +95,7 @@ export default function NavbarOne({
             <BlocksNavItem />
 
             {/* ===================== documentation nav item ===================== */}
-            <DocumentationNavItem />
+            {/* <DocumentationNavItem /> */}
           </ul>
 
           {/* ============= show contact info in the small device sidebar ============= */}
@@ -118,7 +118,7 @@ export default function NavbarOne({
         button={button}
         search={search}
         social={social}
-        language={language}
+        // language={language}
         navOtherClass={navOtherClass}
       />
     </Fragment>

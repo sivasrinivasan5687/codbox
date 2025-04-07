@@ -8,10 +8,10 @@ import { pages } from "data/navigation";
 
 export default function PagesNavItem() {
   return (
-    <li className="nav-item dropdown">
-      <DropdownToggleLink title="Pages" className="nav-link dropdown-toggle" />
+    <li className="nav-item ">
+      <DropdownToggleLink title="services" className="nav-link" />
 
-      <ul className="dropdown-menu">
+      {/* <ul className="dropdown-menu">
         {pages.map(({ id, title, children }) => {
           return (
             <li className="dropdown dropdown-submenu dropend" key={id}>
@@ -22,7 +22,7 @@ export default function PagesNavItem() {
         })}
 
         <ListItemLink href="/pricing" title="Pricing" linkClassName="dropdown-item" />
-      </ul>
+      </ul> */}
     </li>
   );
 }

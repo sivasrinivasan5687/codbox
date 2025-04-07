@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 // GLOBAL CUSTOM COMPONENTS
 import DropdownToggleLink from "components/reuseable/links/DropdownToggleLink";

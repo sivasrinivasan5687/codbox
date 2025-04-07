@@ -12,52 +12,52 @@ import { CTA14 } from "components/blocks/call-to-action";
 import { Testimonial29 } from "components/blocks/testimonial";
 
 export default function Demo34() {
-  return (
-    <div className="content-wrapper">
-      {/* ========== header section ========== */}
-      <header className="wrapper bg-light">
-        <Navbar
-          language
-          logoAlt="logo-light"
-          navClassName="navbar navbar-expand-lg center-nav navbar-dark navbar-bg-dark bg-navy"
-          button={
-            <Link href="#" className="btn btn-sm btn-primary rounded">
-              Contact
-            </Link>
-          }
-        />
-      </header>
+	return (
+		<div className="content-wrapper">
+			{/* ========== header section ========== */}
+			<header className="wrapper bg-light">
+				<Navbar
+					language
+					logoAlt="EVIANSINTL-LOGO"
+					navClassName="navbar navbar-expand-lg center-nav navbar-dark navbar-bg-dark bg-navy"
+					button={
+						<Link href="#" className="btn btn-sm btn-primary rounded">
+							Contact
+						</Link>
+					}
+				/>
+			</header>
 
-      <section className="wrapper bg-light">
-        <div className="container pt-14 pt-md-16">
-          {/* ========== hero section ========== */}
-          <Hero35 />
+			<section className="wrapper bg-light">
+				<div className="container pt-14 pt-md-16">
+					{/* ========== hero section ========== */}
+					<Hero35 />
 
-          {/* ========== clients section ========== */}
-          <Clients7 />
+					{/* ========== clients section ========== */}
+					<Clients7 />
 
-          {/* ========== our features section ========== */}
-          <Services38 />
+					{/* ========== our features section ========== */}
+					<Services38 />
 
-          {/* ========== why choose us section ========== */}
-          <About37 />
+					{/* ========== why choose us section ========== */}
+					<About37 />
 
-          {/* ========== happy customer section ========== */}
-          <Testimonial29 />
+					{/* ========== happy customer section ========== */}
+					<Testimonial29 />
 
-          {/* ========== how it works section ========== */}
-          <Process22 />
+					{/* ========== how it works section ========== */}
+					<Process22 />
 
-          {/* ========== how it works section ========== */}
-          <Blog9 />
+					{/* ========== how it works section ========== */}
+					{/* <Blog9 /> */}
 
-          {/* ========== how it works section ========== */}
-          <CTA14 />
-        </div>
-      </section>
+					{/* ========== how it works section ========== */}
+					<CTA14 />
+				</div>
+			</section>
 
-      {/* ========== footer section ========== */}
-      <Footer4 />
-    </div>
-  );
+			{/* ========== footer section ========== */}
+			<Footer4 />
+		</div>
+	);
 }

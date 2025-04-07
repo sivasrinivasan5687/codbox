@@ -24,8 +24,8 @@ export default function Clients7() {
       <div className="card-body px-8 p-md-12">
         <div className="swiper-container clients mb-0">
           <Carousel {...carouselProps}>
-            {Array.from({ length: 10 }, (_, index) => (
-              <img key={index} src={`/img/brands/c${index + 1}.png`} alt={`client ${index + 1}`} loading="lazy" />
+            {Array.from({ length: 5 }, (_, index) => (
+              <img style={{width:"130px", height:"80px"}} key={index} src={`/img/partners/c${index + 1}.webp`} alt={`client ${index + 1}`} loading="lazy" />
             ))}
           </Carousel>
         </div>

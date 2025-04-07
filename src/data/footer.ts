@@ -1,9 +1,9 @@
 const footerNav = [
-  { title: 'About Us', url: '#' },
-  { title: 'Our Story', url: '#' },
-  { title: 'Projects', url: '#' },
-  { title: 'Terms of Use', url: '#' },
-  { title: 'Privacy Policy', url: '#' }
+	{ title: "About Us", url: "#" },
+	{ title: "Our Services", url: "#" },
+	{ title: "Pricing plan", url: "#" },
+	{ title: "Terms & Condition", url: "#" },
+	{ title: "Privecy Policy", url: "#" },
 ];
 
 export const helps = [

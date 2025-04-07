@@ -27,8 +27,8 @@ import "assets/scss/style.scss";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sandbox - Modern & Multipurpose NextJS Template",
-  description: "Sandbox is a beautiful and flawless site template."
+	title: "EVIANSINTL",
+	description: "Sandbox is a beautiful and flawless site template.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

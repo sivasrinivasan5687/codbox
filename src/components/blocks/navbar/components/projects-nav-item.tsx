@@ -7,10 +7,10 @@ import { projectsNavigation } from "data/navigation";
 
 export default function ProjectsNavItem() {
   return (
-    <li className="nav-item dropdown">
-      <DropdownToggleLink title="Projects" className="nav-link dropdown-toggle" />
+    <li className="nav-item ">
+      <DropdownToggleLink title="About" className="nav-link " />
 
-      <div className="dropdown-menu dropdown-lg">
+      {/* <div className="dropdown-menu dropdown-lg">
         <div className="dropdown-lg-content">
           {projectsNavigation.map(({ title, children }, i) => (
             <div key={title + i}>
@@ -19,7 +19,7 @@ export default function ProjectsNavItem() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </li>
   );
 }
