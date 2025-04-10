@@ -14,15 +14,15 @@ const breadcrumb = [
 
 export default function Breadcrumb({ data = breadcrumb, className = "" }: BreadcrumbProps) {
   return (
-    <nav className="d-inline-block" aria-label="breadcrumb">
+    <nav className="d-inline-block " aria-label="breadcrumb">
       <ol className={`breadcrumb ${className}`}>
         {data.map(({ id, title, url }, i) => {
           return data.length - 1 === i ? (
-            <li key={id} className="breadcrumb-item active" aria-current="page">
+            <li key={id} className="breadcrumb-item text-white active" aria-current="page">
               {title}
             </li>
           ) : (
-            <li className="breadcrumb-item" key={id}>
+            <li className="breadcrumb-item text-white" key={id}>
               <NextLink title={title} href={url} />
             </li>
           );

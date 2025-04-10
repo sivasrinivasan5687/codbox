@@ -18,8 +18,8 @@ export default function Demo34() {
 			<header className="wrapper bg-light">
 				<Navbar
 					language
-					logoAlt="EVIANSINTL-LOGO"
-					navClassName="navbar navbar-expand-lg center-nav navbar-dark navbar-bg-dark bg-navy"
+					logoAlt="noorul-logo"
+					navClassName="navbar navbar-expand-lg center-nav navbar-dark navbar-bg-dark bg-nav"
 					button={
 						<Link href="#" className="btn btn-sm btn-primary rounded">
 							Contact

@@ -50,7 +50,7 @@ export default function NavbarOne({
   language = false,
   stickyBox = true,
   navOtherClass = "navbar-other w-100 d-flex ms-auto",
-  navClassName = "navbar navbar-expand-lg center-nav transparent navbar-light"
+  navClassName = "navbar navbar-expand-lg center-nav transparent navbar-light bg-dark"
 }: NavbarProps) {
   useNestedDropdown();
   const sticky = useSticky(350);
@@ -61,69 +61,95 @@ export default function NavbarOne({
 
   // all main header contents
   const headerContent = (
-    <Fragment>
-      <div className="navbar-brand w-100">
-        <NextLink href="/" title={<img style={{width:100,height:80}} alt="logo" src={`/img/${logo}.webp`} srcSet={`/img/${logo}@2x.png 2x`} />} />
-      </div>
+		<Fragment>
+			<div className="navbar-brand w-100">
+				<NextLink
+					href="/"
+					title={
+						<img
+							style={{ width: 220, height: 80, objectFit: "contain", marginRight: 10  , paddingBottom:10}}
+							alt="logo"
+							src={`/img/EVIANSINTL-LOGO.webp`}
+							srcSet={`/img/EVIANSINTL-LOGO@2x.webp 2x`}
+						/>
+					}
+				/>
+			</div>
 
-      <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
-        <div className="offcanvas-header d-lg-none">
-          <h3 className="text-white fs-30 mb-0">Sandbox</h3>
-          <button
-            type="button"
-            aria-label="Close"
-            data-bs-dismiss="offcanvas"
-            className="btn-close btn-close-white ms-auto"
-          />
-        </div>
+			<div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+				<div className="offcanvas-header d-lg-none">
+					<h3 className="text-white fs-30 mb-0">Noorul Jannah</h3>
+					<button
+						type="button"
+						aria-label="Close"
+						data-bs-dismiss="offcanvas"
+						className="btn-close btn-close-white ms-auto"
+					/>
+				</div>
 
-        <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
-          <ul className="navbar-nav">
-            {/* ===================== demos nav item ===================== */}
-            <DemosNavItem />
-            {/* ===================== projects nav item  ===================== */}
-            <ProjectsNavItem />
-            
-            {/*  ===================== pages nav item  ===================== */}
-            <PagesNavItem />
+				<div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+					<ul className="navbar-nav">
+						{/* ===================== demos nav item ===================== */}
+						{/* <DemosNavItem /> */}
+						<li className="nav-item ">
+							<NextLink className="nav-link" href={"/"} title={"Home"} />
+						</li>
+						<li className="nav-item ">
+							<NextLink className="nav-link" href={"/about"} title={"About"} />
+						</li>
+						<li className="nav-item ">
+							<NextLink className="nav-link" href={"/products"} title={"Products"} />
+						</li>
+						<li className="nav-item ">
+							<NextLink className="nav-link" href={"/frozenfoods"} title={"Frozen foods"} />
+						</li>
+						<li className="nav-item ">
+							<NextLink className="nav-link" href={"/commodity"} title={"Commodity"} />
+						</li>
+						<li className="nav-item ">
+							<NextLink className="nav-link" href={"/contact"} title={"Contact us"} />
+						</li>
+						{/* ===================== projects nav item  ===================== */}
+						{/* <ProjectsNavItem /> */}
 
+						{/*  ===================== pages nav item  ===================== */}
+						{/* <PagesNavItem /> */}
 
+						{/* ===================== blog nav item ===================== */}
+						{/* <BlogNavItem /> */}
 
-            {/* ===================== blog nav item ===================== */}
-            <BlogNavItem />
+						{/* ===================== blocks nav item ===================== */}
+						{/* <BlocksNavItem /> */}
 
-            {/* ===================== blocks nav item ===================== */}
-            <BlocksNavItem />
+						{/* ===================== documentation nav item ===================== */}
+						{/* <DocumentationNavItem /> */}
+					</ul>
 
-            {/* ===================== documentation nav item ===================== */}
-            {/* <DocumentationNavItem /> */}
-          </ul>
+					{/* ============= show contact info in the small device sidebar ============= */}
+					<div className="offcanvas-footer d-lg-none">
+						<div>
+							<NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
+							<br />
+							<NextLink href="tel:0123456789" title="00 (123) 456 78 90" />
+							<br />
+							<SocialLinks />
+						</div>
+					</div>
+				</div>
+			</div>
 
-          {/* ============= show contact info in the small device sidebar ============= */}
-          <div className="offcanvas-footer d-lg-none">
-            <div>
-              <NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
-              <br />
-              <NextLink href="tel:0123456789" title="00 (123) 456 78 90" />
-              <br />
-              <SocialLinks />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* ============= right side header content ============= */}
-      <HeaderRight
-        cart={cart}
-        info={info}
-        button={button}
-        search={search}
-        social={social}
-        // language={language}
-        navOtherClass={navOtherClass}
-      />
-    </Fragment>
-  );
+			{/* ============= right side header content ============= */}
+			<HeaderRight
+				cart={cart}
+				info={info}
+				button={button}
+				search={search}
+				social={social}
+				// language={language}
+				navOtherClass={navOtherClass}
+			/>
+		</Fragment>
+	);
 
   return (
     <Fragment>

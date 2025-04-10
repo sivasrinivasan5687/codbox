@@ -33586,7 +33586,7 @@ header {
   box-shadow: none;
 }
 .navbar.navbar-bg-dark {
-  background: #21262c;
+  background: white;
 }
 .navbar .navbar-other .nav-item .nav-link {
   padding-top: 0 !important;
@@ -33946,9 +33946,9 @@ button.hamburger span {
 .breadcrumb-item a {
   color: inherit;
 }
-.breadcrumb-item a:hover {
+/* .breadcrumb-item a:hover {
   color: var(--bs-primary);
-}
+} */
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 0.5rem;
 }
@@ -33958,7 +33958,7 @@ button.hamburger span {
   display: flex;
   align-items: center;
   padding-right: 0.5rem;
-  color: rgba(96, 105, 123, 0.35);
+  color: white;
   content: "\e931";
   margin-top: -1px;
   font-size: 0.9rem;

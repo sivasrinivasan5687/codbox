@@ -1,9 +1,36 @@
+import { title } from "process";
+
 const footerNav = [
-	{ title: "About Us", url: "#" },
-	{ title: "Our Services", url: "#" },
-	{ title: "Pricing plan", url: "#" },
-	{ title: "Terms & Condition", url: "#" },
-	{ title: "Privecy Policy", url: "#" },
+	{ title: "Beef", url: "/frozenfoods" },
+	{ title: "Chicken", url: "/frozenfoods" },
+	{ title: "Lamb", url: "/frozenfoods" },
+	{ title: "Sea Food", url: "/frozenfoods" },
+	{ title: "French Fries", url: "/frozenfoods" },
+];
+
+export const footerProducts = [
+	{ title: "Rice", url: "/products" },
+	{ title: "Wheat", url: "/products" },
+	{ title: "Sugar", url: "/products" },
+	{ title: "Dates", url: "/products" },
+	{ title: "Spices", url: "/products" },
+	{ title: "Yellow Corn (Animal Feed)", url: "/products" },
+	{ title: "Soyabean Meal", url: "/products" },
+	{ title: "Fruits & Vegitables", url: "/products" },
+	{ title: "Pulses", url: "/products" },
+	{ title: "Sunflower Oil", url: "/products" },
+	{ title: "Paper Bags", url: "/products" },
+];
+
+export const commodity = [
+	{ title: "Bitumen", url: "/commodity" },
+	{ title: "Coal", url: "/commodity" },
+	{ title: "Gas Oil", url: "/commodity" },
+	{ title: "Fuel Oil", url: "/commodity" },
+	{ title: "Petcoke", url: "/commodity" },
+	{ title: "Naphtha", url: "/commodity" },
+	{ title: "Crude oil", url: "/commodity" },
+	{ title: "TMT Steel", url: "/commodity" },
 ];
 
 export const helps = [

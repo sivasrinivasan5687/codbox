@@ -40,10 +40,9 @@ export default function Hero35() {
 
 			<div className="col-lg-5">
 				{/* <h2 className="fs-16 text-uppercase text-primary mb-3">We Are Sandbox</h2> */}
-				<h1 className="display-1 fs-58 mb-5">EVIANSINTL WHITEPAPER</h1>
+				<h1 className="display-1 fs-58 mb-5">EXPLORE ENDLESS</h1>
 				<p className="lead fs-25 lh-sm mb-6 pe-md-10">
-					Download White Paper EVIANS provides the tools and technology needed to make the most of your digital currency
-					experience. Welcome to the future of finance with EVIANS—where innovation meets simplicity.
+					POSIBILITIES IN TRADING WITH OUR DIVERSE RANGE OF PRODUCTS & SERVICES
 				</p>
 				<div className="row gy-3 gx-xl-8 mb-9">
 					<div className="col-xl-6">

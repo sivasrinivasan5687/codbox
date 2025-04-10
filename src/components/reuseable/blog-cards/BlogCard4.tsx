@@ -6,6 +6,7 @@ import NextLink from "../links/NextLink";
 
 // ======================================================
 interface BlogCard4Props {
+  id:number,
   date: string;
   image: string;
   title: string;
@@ -16,35 +17,35 @@ interface BlogCard4Props {
 // ======================================================
 
 export default function BlogCard4(props: BlogCard4Props) {
-  const { date, image, title, category, description, className = "card" } = props;
+  const {id, date, image, title, category, description, className = "card" } = props;
 
   return (
-    <article>
-      <div className={className}>
-        <figure className="card-img-top overlay overlay-1 hover-scale">
-          <Link href="#">
-            <Image width={560} height={350} src={image} alt={title} className="w-100 h-auto" />
-            <span className="bg" />
-          </Link>
+		<article>
+			<div className={className}>
+				<figure className="card-img-top overlay overlay-1 hover-scale">
+					<Link data-glightbox data-gallery="shots-group" href={`/product/${id}-commodity`}>
+						<Image width={560} height={350} src={`/img/commodity/${image}.png`} alt={title} className="w-100 h-auto" />
+						<span className="bg" />
+					</Link>
 
-          <figcaption>
-            <h5 className="from-top mb-0">Read More</h5>
-          </figcaption>
-        </figure>
+					<figcaption>
+						<h5 className="from-top mb-0">Read More</h5>
+					</figcaption>
+				</figure>
 
-        <div className="card-body">
-          <div className="post-header">
-            <h2 className="post-title h3 mt-1 mb-3">
-              <NextLink title={title} className="link-dark" href="#" />
-            </h2>
-          </div>
+				<div className="card-body">
+					<div className="post-header">
+						<h2 className="post-title h3 mt-1 mb-3">
+							<NextLink title={title} className="link-dark" href="#" />
+						</h2>
+					</div>
 
-          <div className="post-content">
-            <p>{description}</p>
-          </div>
-        </div>
+					<div className="post-content">
+						<p>{description.slice(0, 240)}...</p>
+					</div>
+				</div>
 
-        <div className="card-footer">
+				{/* <div className="card-footer">
           <ul className="post-meta d-flex mb-0">
             <li className="post-date">
               <i className="uil uil-calendar-alt" />
@@ -64,8 +65,8 @@ export default function BlogCard4(props: BlogCard4Props) {
               />
             </li>
           </ul>
-        </div>
-      </div>
-    </article>
-  );
+        </div> */}
+			</div>
+		</article>
+	);
 }

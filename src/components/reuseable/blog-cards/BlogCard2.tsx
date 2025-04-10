@@ -35,7 +35,7 @@ export default function BlogCard2({ cardTop, title, category, description, link 
           </div>
         </div>
 
-        <div className="card-footer">
+        {/* <div className="card-footer">
           <ul className="post-meta d-flex mb-0">
             <li className="post-date">
               <i className="uil uil-calendar-alt" />
@@ -61,7 +61,7 @@ export default function BlogCard2({ cardTop, title, category, description, link 
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </article>
   );

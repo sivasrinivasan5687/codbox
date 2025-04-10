@@ -6,7 +6,7 @@ type SocialLinksProps = { className?: string };
 
 const links = [
 	{ id: 2, icon: "uil uil-facebook-f", url: "https://www.facebook.com/share/1K7ijGpjcK/" },
-	{ id: 4, icon: "uil uil-instagram", url: "https://www.instagram.com/evians_intl?igsh=c20yeGN5cnBsMTNu" },
+	// { id: 4, icon: "uil uil-instagram", url: "https://www.instagram.com/evians_intl?igsh=c20yeGN5cnBsMTNu" },
 	{ id: 5, icon: "uil uil-youtube", url: "https://youtube.com/@eviansdigital?si=jdIltXXcRTHHK6YD" },
 	{
 		id: 6,
@@ -23,7 +23,7 @@ export default function SocialLinks({ className = "nav social social-white mt-4"
     <nav className={className}>
       {links.map(({ id, icon, url }) => (
         <a href={url} key={id} target="_blank" rel="noreferrer">
-          <i style={{margin:"0 10px"}} className={icon} />
+          <i style={{marginRight:"0 5px"}} className={icon} />
         </a>
       ))}
     </nav>
