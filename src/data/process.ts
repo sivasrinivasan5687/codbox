@@ -17,18 +17,18 @@ export const processList1 = [
   {
     no: "1",
     className: "me-lg-6",
-    title: "Collect Ideas",
+    title: "Create Account",
     subtitle: "Nulla vitae elit libero pharetra augue dapibus."
   },
   {
     no: "2",
-    title: "Data Analysis",
+    title: "Verify Account",
     className: "ms-lg-13 mt-6",
     subtitle: "Vivamus sagittis lacus vel augue laoreet."
   },
   {
     no: "3",
-    title: "Finalize Product",
+    title: "Make Identification",
     className: "mx-lg-6 mt-6",
     subtitle: "Cras mattis consectetur purus sit amet."
   }

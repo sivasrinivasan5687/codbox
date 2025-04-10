@@ -28,7 +28,7 @@ export default function ProcessList1({ no, title, subtitle, className, shadow }:
 
           <div>
             <h4 className="mb-1">{title}</h4>
-            <p className="mb-0">{subtitle}</p>
+            {/* <p className="mb-0">{subtitle}</p> */}
           </div>
         </div>
       </div>

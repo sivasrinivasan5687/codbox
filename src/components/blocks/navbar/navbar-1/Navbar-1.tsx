@@ -111,7 +111,7 @@ export default function NavbarOne({
 							<NextLink className="nav-link text-dark" href={"/frozenfoods"} title={"Frozen foods"} />
 						</li>
 						<li className="nav-item ">
-							<NextLink className="nav-link text-dark" href={"/frozenfoods"} title={"Crypto"} />
+							<NextLink className="nav-link text-dark" href={"/crypto"} title={"Crypto"} />
 						</li>
 						<li className="nav-item ">
 							<NextLink className="nav-link text-dark" href={"/commodity"} title={"Commodity"} />
