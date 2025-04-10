@@ -32,6 +32,7 @@ export default function Portfolio5() {
 
           {/* USED FOR IMAGE LIGHTBOX */}
           <LightBox />
+         
 
           <div className="grid grid-view projects-masonry">
             <div className="isotope-filter filter mb-10">

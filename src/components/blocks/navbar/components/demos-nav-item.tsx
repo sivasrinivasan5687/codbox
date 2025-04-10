@@ -7,10 +7,10 @@ import { demos } from "data/navigation";
 
 export default function DemosNavItem() {
   return (
-    <li className="nav-item ">
+    <li className="nav-item dropdown">
       <DropdownToggleLink title="Home" className="nav-link " />
 
-      {/* <ul className="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
+      <ul className="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
         <li className="mega-menu-content mega-menu-scroll">
           <ul className="row row-cols-1 row-cols-lg-6 gx-0 gx-lg-4 gy-lg-2 list-unstyled">
             {demos.map(({ id, title, url, thumnail }) => (
@@ -33,7 +33,7 @@ export default function DemosNavItem() {
             <strong>Scroll to view more</strong>
           </span>
         </li>
-      </ul> */}
+      </ul>
     </li>
   );
 }

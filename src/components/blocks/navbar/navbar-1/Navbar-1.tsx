@@ -81,12 +81,13 @@ export default function NavbarOne({
           <ul className="navbar-nav">
             {/* ===================== demos nav item ===================== */}
             <DemosNavItem />
-
+            {/* ===================== projects nav item  ===================== */}
+            <ProjectsNavItem />
+            
             {/*  ===================== pages nav item  ===================== */}
             <PagesNavItem />
 
-            {/* ===================== projects nav item  ===================== */}
-            <ProjectsNavItem />
+
 
             {/* ===================== blog nav item ===================== */}
             <BlogNavItem />
