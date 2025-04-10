@@ -11,18 +11,7 @@ const page = () => {
 	];
 	return (
 		<Fragment>
-			<header className="wrapper bg-light">
-				<Navbar
-					language
-					logoAlt="noorul-logo"
-					navClassName="navbar navbar-expand-lg center-nav navbar-dark navbar-bg-dark bg-nav"
-					button={
-						<Link href="/contact" className="btn btn-sm btn-primary rounded">
-							Contact
-						</Link>
-					}
-				/>
-			</header>
+		
 			{/* <section className="wrapper bg-light">
 				<div className="container py-4 py-md-6">
 					<div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
@@ -62,93 +51,26 @@ const page = () => {
 						</div>
 						<div className="col-lg-6">
 							<h2 className="display-5 mb-3">More about us</h2>
-							<p className="lead fs-lg">
-								NOORUL JANNAH GOODS WHOLESALERS LLC has established itself as a prominent and influential participant in the
-								global goods wholesalers export arena, maintaining a robust presence across the Middle East, Far East,
-								Southeast Asia, Africa, and South American nations.
+							<p className="lead fs-lg">LIMITATIONS OF TRADITIONAL BANKING SYSTEMS</p>
+							<p>
+								In the evolving landscape of global commerce, the traditional banking system faces significant challenges in
+								adapting to the demands of contemporary business transactions.
 							</p>
 							<p>
-								Our unwavering commitment lies in the continuous advancement of the General and agricultural commodities
-								sector, Frozen Foods, Frozen meat and Petroleum by products .
-							</p>
-							<p>
-								These offerings stand as a testament to our unyielding dedication to upholding exceptional standards and a
-								steadfast commitment to quality within our business end Nonetheless, our unwavering dedication to excellence
-								extends far beyond the scope of our products.
+								As enterprises strive to remain competitive and anticipate shifts in consumer behavior, the need for agile
+								and efficient financial services has surged dramatically. This increasing demand highlights several critical
+								shortcomings of conventional banking practices, which often fail to meet the expectations of modern
+								businesses.
 							</p>
 							<a href="#" className="btn btn-primary rounded-pill mt-2">
 								Learn More
 							</a>
 						</div>
 					</div>
-					{/* <div className="row gx-md-8 gx-xl-12 mt-10 mt-md-13">
-						<div className="col-lg-4">
-							<h2 className="display-5 mb-3">My Working Process</h2>
-							<p>
-								Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus.
-								Aenean eu leo quam.
-							</p>
-						</div>
-						<div className="col-lg-8">
-							<div className="row gy-6 gx-md-8 gx-xl-12">
-								<div className="col-md-6">
-									<div className="d-flex flex-row">
-										<div>
-											<span className="icon btn btn-circle btn-primary pe-none me-4">
-												<span className="number fs-18">1</span>
-											</span>
-										</div>
-										<div>
-											<h4 className="mb-1">Concept</h4>
-											<p className="mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
-										</div>
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className="d-flex flex-row">
-										<div>
-											<span className="icon btn btn-circle btn-primary pe-none me-4">
-												<span className="number fs-18">2</span>
-											</span>
-										</div>
-										<div>
-											<h4 className="mb-1">Prepare</h4>
-											<p className="mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
-										</div>
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className="d-flex flex-row">
-										<div>
-											<span className="icon btn btn-circle btn-primary pe-none me-4">
-												<span className="number fs-18">3</span>
-											</span>
-										</div>
-										<div>
-											<h4 className="mb-1">Retouch</h4>
-											<p className="mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
-										</div>
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className="d-flex flex-row">
-										<div>
-											<span className="icon btn btn-circle btn-primary pe-none me-4">
-												<span className="number fs-18">4</span>
-											</span>
-										</div>
-										<div>
-											<h4 className="mb-1">Finalize</h4>
-											<p className="mb-0">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> */}
+					
 				</div>
 			</section>
-			<section className="wrapper bg-light">
+			{/* <section className="wrapper bg-light">
 				<div className="container">
 					<div className="row gx-lg-8 gx-xl-12 gy-12 align-items-center">
 						<div className="col-lg-6 position-relative">
@@ -215,8 +137,7 @@ const page = () => {
 						</div>
 					</div>
 				</div>
-			</section>
-			<Footer4 />
+			</section> */}
 		</Fragment>
 	);
 };

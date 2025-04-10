@@ -9,19 +9,22 @@ import useIsotope from "hooks/useIsotope";
 import { portfolioList4 } from "data/portfolio";
 import NextLink from "components/reuseable/links/NextLink";
 import Link from "next/link";
+interface Portfolio5Props {
+	data:any[],
+}
 
-export default function Portfolio5() {
-  const { filterKey, handleFilterKeyChange } = useIsotope();
+export default function Portfolio5({ data = portfolioList4 }: Portfolio5Props) {
+	const { filterKey, handleFilterKeyChange } = useIsotope();
 
-  const filterList = [
-    { id: 1, title: "All", value: "*" },
-    { id: 2, title: "Foods", value: ".foods" },
-    { id: 3, title: "Drinks", value: ".drinks" },
-    { id: 4, title: "Events", value: ".events" },
-    { id: 5, title: "Pastries", value: ".pastries" }
-  ];
+	const filterList = [
+		{ id: 1, title: "All", value: "*" },
+		{ id: 2, title: "Foods", value: ".foods" },
+		{ id: 3, title: "Drinks", value: ".drinks" },
+		{ id: 4, title: "Events", value: ".events" },
+		{ id: 5, title: "Pastries", value: ".pastries" },
+	];
 
-  return (
+	return (
 		<section id="portfolio">
 			<div className="wrapper bg-gray">
 				<div className="container  py-6 text-center">
@@ -51,7 +54,7 @@ export default function Portfolio5() {
             </div> */}
 
 						<div className="row gx-md-6 gy-6 isotope">
-							{portfolioList4.map(({ category, id, image, title }) => (
+							{data.map(({ category, id, image, title }) => (
 								<div className={`project item col-md-6 col-xl-4 ${category}`} key={id}>
 									<figure className="overlay overlay-1 rounded">
 										<Link href={`/product/${id}-products`}>

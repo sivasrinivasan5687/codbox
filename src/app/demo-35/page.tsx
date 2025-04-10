@@ -15,11 +15,11 @@ export default function Demo34() {
 	return (
 		<div className="content-wrapper">
 			{/* ========== header section ========== */}
-			<header className="wrapper bg-light">
+			<header className="wrapper bg-light ">
 				<Navbar
 					language
 					logoAlt="noorul-logo"
-					navClassName="navbar navbar-expand-lg center-nav navbar-dark navbar-bg-dark bg-nav"
+					navClassName="navbar navbar-expand-lg center-nav navbar-dark  bg-nav bg-white"
 					button={
 						<Link href="#" className="btn btn-sm btn-primary rounded">
 							Contact

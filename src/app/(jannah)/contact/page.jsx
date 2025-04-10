@@ -12,19 +12,10 @@ const page = () => {
 	];
   return (
 		<>
-			<NavbarOne
-				language
-				logoAlt="noorul-logo"
-				navClassName="navbar navbar-expand-lg center-nav navbar-dark navbar-bg-dark bg-nav"
-				button={
-					<Link href="/contact" className="btn btn-sm btn-primary rounded">
-						Contact
-					</Link>
-				}
-			/>
+			
 			<BreadCrumb links={breadcrumb} title="Contact Us" />
 			<Contact10 />
-			<Footer4 />
+		
 		</>
 	);
 }

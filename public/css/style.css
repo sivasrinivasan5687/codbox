@@ -33665,7 +33665,7 @@ button.hamburger:before, button.hamburger span, button.hamburger:after {
   width: 1.2rem;
   height: 0.15rem;
   transition: all 0.2s ease-in-out;
-  background: currentColor;
+  background: black;
   border-radius: 2rem;
 }
 @media (prefers-reduced-motion: reduce) {

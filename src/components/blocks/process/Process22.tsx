@@ -14,11 +14,11 @@ export default function Process22() {
 					/>
 
 					<figure className="position-relative">
-						<img src="/img/photos/about33.jpg" srcSet="/img/photos/about33@2x.jpg 2x" alt="" />
+						<img src="/img/ex8.png" srcSet="/img/ex8.png 2x" alt="" />
 					</figure>
 
 					<div className="card shadow-lg position-absolute d-none d-md-block" style={{ top: "15%", right: "-7%" }}>
-						<div className="card-body py-4 px-5">
+						{/* <div className="card-body py-4 px-5">
 							<div className="d-flex flex-row align-items-center">
 								<div>
 									<div className="svg-bg bg-pale-primary rounded-circle me-3">
@@ -31,7 +31,7 @@ export default function Process22() {
 									<p className="fs-16 lh-sm mb-0 text-nowrap">Projects Done</p>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 
 					<div
@@ -59,8 +59,8 @@ export default function Process22() {
 					</div>
 
 					<div>
-						<h4 className="mb-1">Collect Ideas</h4>
-						<p className="mb-0">We gather insights and define clear goals to guide your project from the start.</p>
+						<h4 className="mb-1">Submit Your Trade Request</h4>
+						<p className="mb-0">Fill in shipment and destination details.</p>
 					</div>
 				</div>
 
@@ -70,8 +70,8 @@ export default function Process22() {
 					</div>
 
 					<div>
-						<h4 className="mb-1">Data Analysis</h4>
-						<p className="mb-0">Our expert team analyzes market trends and behaviors to tailor strategies just for you.</p>
+						<h4 className="mb-1">We Handle the Process</h4>
+						<p className="mb-0">From pickup to documentation and delivery.</p>
 					</div>
 				</div>
 
@@ -81,8 +81,8 @@ export default function Process22() {
 					</div>
 
 					<div>
-						<h4 className="mb-1">Finalize Product</h4>
-						<p className="mb-0">We deliver a polished, high-performing solution that exceeds expectations.</p>
+						<h4 className="mb-1">Track and Receive</h4>
+						<p className="mb-0">Live shipment tracking until it reaches your destination.</p>
 					</div>
 				</div>
 			</div>

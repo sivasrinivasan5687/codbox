@@ -67,7 +67,7 @@ export default function NavbarOne({
 					href="/"
 					title={
 						<img
-							style={{ width: 220, height: 80, objectFit: "contain", marginRight: 10  , paddingBottom:10}}
+							style={{ width: 220, height: 80, objectFit: "contain", marginRight: 10, paddingBottom: 10 }}
 							alt="logo"
 							src={`/img/EVIANSINTL-LOGO.webp`}
 							srcSet={`/img/EVIANSINTL-LOGO@2x.webp 2x`}
@@ -76,9 +76,13 @@ export default function NavbarOne({
 				/>
 			</div>
 
-			<div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+			<div
+				id="offcanvas-nav"
+				data-bs-scroll="true"
+				className="navbar-collapse offcanvas offcanvas-nav offcanvas-start bg-info"
+			>
 				<div className="offcanvas-header d-lg-none">
-					<h3 className="text-white fs-30 mb-0">Noorul Jannah</h3>
+					<h3 className="text-white fs-30 mb-0">EVIANSINTL</h3>
 					<button
 						type="button"
 						aria-label="Close"
@@ -88,27 +92,33 @@ export default function NavbarOne({
 				</div>
 
 				<div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
-					<ul className="navbar-nav">
+					<ul className="navbar-nav ">
 						{/* ===================== demos nav item ===================== */}
 						{/* <DemosNavItem /> */}
 						<li className="nav-item ">
-							<NextLink className="nav-link" href={"/"} title={"Home"} />
+							<NextLink className="nav-link text-dark" href={"/"} title={"Home"} />
 						</li>
 						<li className="nav-item ">
-							<NextLink className="nav-link" href={"/about"} title={"About"} />
+							<NextLink className="nav-link text-dark" href={"/about"} title={"About"} />
 						</li>
 						<li className="nav-item ">
-							<NextLink className="nav-link" href={"/products"} title={"Products"} />
+							<NextLink className="nav-link text-dark" href={"/products"} title={"Products"} />
 						</li>
 						<li className="nav-item ">
-							<NextLink className="nav-link" href={"/frozenfoods"} title={"Frozen foods"} />
+							<NextLink className="nav-link text-dark" href={"/electronics"} title={"Electronics"} />
 						</li>
 						<li className="nav-item ">
-							<NextLink className="nav-link" href={"/commodity"} title={"Commodity"} />
+							<NextLink className="nav-link text-dark" href={"/frozenfoods"} title={"Frozen foods"} />
 						</li>
 						<li className="nav-item ">
+							<NextLink className="nav-link text-dark" href={"/frozenfoods"} title={"Crypto"} />
+						</li>
+						<li className="nav-item ">
+							<NextLink className="nav-link text-dark" href={"/commodity"} title={"Commodity"} />
+						</li>
+						{/* <li className="nav-item ">
 							<NextLink className="nav-link" href={"/contact"} title={"Contact us"} />
-						</li>
+						</li> */}
 						{/* ===================== projects nav item  ===================== */}
 						{/* <ProjectsNavItem /> */}
 
@@ -126,11 +136,11 @@ export default function NavbarOne({
 					</ul>
 
 					{/* ============= show contact info in the small device sidebar ============= */}
-					<div className="offcanvas-footer d-lg-none">
+					<div className="offcanvas-footer  d-lg-none">
 						<div>
-							<NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
+							<NextLink title=" info@eviansintl.io" className="link-inverse" href="mailto:first.last@email.com" />
 							<br />
-							<NextLink href="tel:0123456789" title="00 (123) 456 78 90" />
+							<NextLink href="tel:+1v9084558007" title="+1 (908) 455-8007" />
 							<br />
 							<SocialLinks />
 						</div>

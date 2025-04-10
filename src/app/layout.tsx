@@ -27,7 +27,7 @@ import "assets/scss/style.scss";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "NOORUL JANNAH",
+	title: "eviansintl",
 	description: "",
 };
 
@@ -35,6 +35,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body className={manrope.className}>
+        
         {/* <ThemeProvider> */}
           {children}
           {/* </ThemeProvider> */}

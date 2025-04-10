@@ -8,9 +8,7 @@ export default function Testimonial29() {
 				<div className="row text-center">
 					<div className="col-lg-9 col-xl-8 mx-auto">
 						<h2 className="fs-16 text-uppercase text-primary mb-3">Happy Customers</h2>
-						<h3 className="display-2 mb-10 px-xxl-10">
-							Don't take our word for it. See what customers are saying about us.
-						</h3>
+						<h3 className="display-2 mb-10 px-xxl-10">Don’t take our word for it — hear it from our clients.</h3>
 					</div>
 				</div>
 
@@ -30,14 +28,14 @@ export default function Testimonial29() {
 
 										<blockquote className="border-0 fs-lg mb-0">
 											<p>
-												“Mathematics as an expression of the human mind reflects the active will, the contemplative reason,
-												and the desire for perfection”
+												“EvianTrade has helped us streamline our export process. Their technology and support team are
+												unmatched!”
 											</p>
 
 											<div className="blockquote-details">
 												<div className="info ps-0">
-													<h5 className="mb-1">Michel Brown </h5>
-													<p className="mb-0">CEO Industrial Inc.</p>
+													<h5 className="mb-1">Michel Brown, </h5>
+													<p className="mb-0">Logistics Head, Industrial Inc.</p>
 												</div>
 											</div>
 										</blockquote>

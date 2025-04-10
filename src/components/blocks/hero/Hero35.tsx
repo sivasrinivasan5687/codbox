@@ -13,7 +13,12 @@ export default function Hero35() {
 					/>
 
 					<figure className="position-relative">
-						<img src="/img/photos/about34.jpg" srcSet="/img/photos/about34@2x.jpg 2x" alt="" />
+						<img
+							style={{ maxHeight: 550, objectFit: "cover", width: "100%" }}
+							src="/img/ex5.png"
+							srcSet="img/ex5.png 2x"
+							alt=""
+						/>
 					</figure>
 
 					<div
@@ -27,10 +32,11 @@ export default function Hero35() {
 								</div>
 
 								<div>
-									<h3 className="counter fs-23 mb-0 text-nowrap">
+									{/* <h3 className="counter fs-23 mb-0 text-nowrap">
 										<CountUp end={1000} suffix="+" />
-									</h3>
-									<p className="fs-15 lh-sm mb-0 text-nowrap">Happy Clients</p>
+									</h3> */}
+									{/* <p className="fs-15 lh-sm mb-0 text-nowrap"></p> */}
+									<button className="btn btn-primary">Get startted</button>
 								</div>
 							</div>
 						</div>
@@ -40,11 +46,12 @@ export default function Hero35() {
 
 			<div className="col-lg-5">
 				{/* <h2 className="fs-16 text-uppercase text-primary mb-3">We Are Sandbox</h2> */}
-				<h1 className="display-1 fs-58 mb-5">EXPLORE ENDLESS</h1>
-				<p className="lead fs-25 lh-sm mb-6 pe-md-10">
-					POSIBILITIES IN TRADING WITH OUR DIVERSE RANGE OF PRODUCTS & SERVICES
+				<h1 className="display-1 fs-58 mb-5">Global Trade Made Simple</h1>
+				<p className="lead fs-20 lh-sm mb-6 pe-md-10">
+					Empowering your international business with seamless import-export solutions. From logistics to compliance — we
+					take care of it all.
 				</p>
-				<div className="row gy-3 gx-xl-8 mb-9">
+				{/* <div className="row gy-3 gx-xl-8 mb-9">
 					<div className="col-xl-6">
 						<ul className="icon-list bullet-bg bullet-soft-primary mb-0">
 							<li>
@@ -80,7 +87,7 @@ export default function Hero35() {
 							</li>
 						</ul>
 					</div>
-				</div>
+				</div> */}
 
 				<a href="#" className="btn btn-lg btn-primary btn-icon btn-icon-end rounded">
 					Explore Now <i className="uil uil-arrow-up-right" />
