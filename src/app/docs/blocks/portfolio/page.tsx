@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import Block from "./block";
 // GLOBAL CUSTOM COMPONENTS
 import * as All from "components/blocks/portfolio";
+import { portfolioList4 } from "data/portfolio";
 
 export default function Portfolios() {
   return (
@@ -31,7 +32,7 @@ export default function Portfolios() {
 
       <Block id={5}>
         <div className="pb-13 pb-md-15">
-          <All.Portfolio5 />
+          <All.Portfolio5 data={portfolioList4} forward={false} />
         </div>
       </Block>
 

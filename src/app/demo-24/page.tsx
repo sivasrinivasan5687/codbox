@@ -9,6 +9,7 @@ import { Contact12 } from "components/blocks/contact";
 import { Services27 } from "components/blocks/services";
 import { Portfolio5 } from "components/blocks/portfolio";
 import { Testimonial19 } from "components/blocks/testimonial";
+import { portfolioList4 } from "data/portfolio";
 
 export default function Demo24() {
   return (
@@ -30,7 +31,7 @@ export default function Demo24() {
         <Banner2 />
 
         {/* ========== portfolio section ========== */}
-        <Portfolio5 />
+        <Portfolio5 data={portfolioList4} forward={false} />
 
         {/* ========== happy customer section ========== */}
         <Testimonial19 />
