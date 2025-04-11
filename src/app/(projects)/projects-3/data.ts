@@ -93,8 +93,8 @@ export const projectList = [
 
 export const filterItems = [
   { id: 1, title: "All", value: "*" },
-  { id: 2, title: "Concept", value: ".concept" },
-  { id: 3, title: "Product", value: ".product" },
-  { id: 4, title: "Workshop", value: ".workshop" },
-  { id: 5, title: "Still Life", value: ".still-life" }
+  { id: 2, title: "AC", value: ".concept" },
+  { id: 3, title: "REFRIGERATOR", value: ".product" },
+  { id: 4, title: "WASHING MACHINE", value: ".workshop" },
+  // { id: 5, title: "Still Life", value: ".still-life" }
 ];

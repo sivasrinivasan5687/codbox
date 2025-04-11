@@ -14,24 +14,30 @@ import CloudComputing from "icons/lineal/CloudComputing";
 
 // used in the process-1, process-7, process-14 block
 export const processList1 = [
-  {
-    no: "1",
-    className: "me-lg-6",
-    title: "Create Account",
-    subtitle: "Nulla vitae elit libero pharetra augue dapibus."
-  },
-  {
-    no: "2",
-    title: "Verify Account",
-    className: "ms-lg-13 mt-6",
-    subtitle: "Vivamus sagittis lacus vel augue laoreet."
-  },
-  {
-    no: "3",
-    title: "Make Identification",
-    className: "mx-lg-6 mt-6",
-    subtitle: "Cras mattis consectetur purus sit amet."
-  }
+	{
+		no: "1",
+		className: "me-lg-6",
+		title: "Create Account",
+		subtitle: "Nulla vitae elit libero pharetra augue dapibus.",
+	},
+	{
+		no: "2",
+		title: "Verify Account",
+		className: "ms-lg-13 mt-6",
+		subtitle: "Vivamus sagittis lacus vel augue laoreet.",
+	},
+	{
+		no: "3",
+		title: "Make Identification",
+		className: "mx-lg-6 mt-6",
+		subtitle: "Cras mattis consectetur purus sit amet.",
+	},
+	{
+		no: "4",
+		title: "Exchange currency",
+		className: "me-lg-6 mt-4",
+		subtitle: "Cras mattis consectetur purus sit amet.",
+	},
 ];
 
 // used in the process-6 block

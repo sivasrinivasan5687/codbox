@@ -4,11 +4,16 @@ import { Portfolio5 } from 'components/blocks/portfolio'
 import { electronics } from 'data/electronics'
 import Link from 'next/link'
 import React from 'react'
+import Project from "../../(projects)/projects-3/page"
 
 const page = () => {
   return (
 		<>
-			<Portfolio5 data={electronics} />
+			<Portfolio5 forward={false} data={electronics} />
+
+			{/* <Project/> */}
+
+
 		</>
 	);
 }

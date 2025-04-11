@@ -19,12 +19,12 @@ export default function ProjectsThree() {
   return (
     <Fragment>
       {/* ========== header section ========== */}
-      <header className="wrapper bg-light">
+      {/* <header className="wrapper bg-light">
         <Navbar
           language
           button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />}
         />
-      </header>
+      </header> */}
 
       <main className="content-wrapper">
         {/* ========== title section ========== */}
@@ -88,7 +88,7 @@ export default function ProjectsThree() {
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer8 />
+      {/* <Footer8 /> */}
     </Fragment>
   );
 }

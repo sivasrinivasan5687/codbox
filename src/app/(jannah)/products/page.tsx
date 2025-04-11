@@ -15,10 +15,8 @@ const page = () => {
 	];
 	return (
 		<>
-			
 			<BreadCrumb links={breadcrumb} title="Products" />
-			<Portfolio5 data={portfolioList4} />
-			
+			<Portfolio5 forward={true} data={portfolioList4} />
 		</>
 	);
 };

@@ -10,10 +10,11 @@ import { portfolioList4 } from "data/portfolio";
 import NextLink from "components/reuseable/links/NextLink";
 import Link from "next/link";
 interface Portfolio5Props {
-	data:any[],
+	data: any[];
+	forward: boolean;
 }
 
-export default function Portfolio5({ data = portfolioList4 }: Portfolio5Props) {
+export default function Portfolio5({ data = portfolioList4, forward = false }: Portfolio5Props) {
 	const { filterKey, handleFilterKeyChange } = useIsotope();
 
 	const filterList = [
@@ -57,7 +58,7 @@ export default function Portfolio5({ data = portfolioList4 }: Portfolio5Props) {
 							{data.map(({ category, id, image, title }) => (
 								<div className={`project item col-md-6 col-xl-4 ${category}`} key={id}>
 									<figure className="overlay overlay-1 rounded">
-										<Link href={`/product/${id}-products`}>
+										<Link href={forward ? `/product/${id}-products` : "#"}>
 											<img src={`/img/products/${image}.png`} alt={title} />
 											<span className="bg" />
 										</Link>
