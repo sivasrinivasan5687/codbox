@@ -1,5 +1,6 @@
 import { Footer4 } from "components/blocks/footer";
 import Navbar from "components/blocks/navbar/navbar-1";
+import { PageTransition } from "components/PageTransition";
 import BreadCrumb from "components/reuseable/breadcrumb/BreadCrumb";
 import Link from "next/link";
 import React, { Fragment } from "react";
@@ -11,8 +12,8 @@ const page = () => {
 	];
 	return (
 		<Fragment>
-		
-			{/* <section className="wrapper bg-light">
+			<PageTransition>
+				{/* <section className="wrapper bg-light">
 				<div className="container py-4 py-md-6">
 					<div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
 						<div className="col-md-8 col-lg-6 col-xl-5 order-lg-2 position-relative">
@@ -40,37 +41,36 @@ const page = () => {
 					</div>
 				</div>
 			</section> */}
-			<BreadCrumb links={breadcrumb} title="About" />
-			<section className="wrapper bg-light">
-				<div className="container py-14">
-					<div className="row gx-md-8 gx-xl-12 gy-6 align-items-center">
-						<div className="col-md-8 col-lg-6 order-lg-2 mx-auto">
-							<div className="img-mask mask-2">
-								<img src="/img/photos/about30.jpg" alt="" />
+				<BreadCrumb links={breadcrumb} title="About" />
+				<section className="wrapper bg-light">
+					<div className="container py-14">
+						<div className="row gx-md-8 gx-xl-12 gy-6 align-items-center">
+							<div className="col-md-8 col-lg-6 order-lg-2 mx-auto">
+								<div className="img-mask mask-2">
+									<img src="/img/photos/about30.jpg" alt="" />
+								</div>
+							</div>
+							<div className="col-lg-6">
+								<h2 className="display-5 mb-3">More about us</h2>
+								<p className="lead fs-lg">LIMITATIONS OF TRADITIONAL BANKING SYSTEMS</p>
+								<p>
+									In the evolving landscape of global commerce, the traditional banking system faces significant challenges
+									in adapting to the demands of contemporary business transactions.
+								</p>
+								<p>
+									As enterprises strive to remain competitive and anticipate shifts in consumer behavior, the need for agile
+									and efficient financial services has surged dramatically. This increasing demand highlights several
+									critical shortcomings of conventional banking practices, which often fail to meet the expectations of
+									modern businesses.
+								</p>
+								<a href="#" className="btn btn-primary rounded-pill mt-2">
+									Learn More
+								</a>
 							</div>
 						</div>
-						<div className="col-lg-6">
-							<h2 className="display-5 mb-3">More about us</h2>
-							<p className="lead fs-lg">LIMITATIONS OF TRADITIONAL BANKING SYSTEMS</p>
-							<p>
-								In the evolving landscape of global commerce, the traditional banking system faces significant challenges in
-								adapting to the demands of contemporary business transactions.
-							</p>
-							<p>
-								As enterprises strive to remain competitive and anticipate shifts in consumer behavior, the need for agile
-								and efficient financial services has surged dramatically. This increasing demand highlights several critical
-								shortcomings of conventional banking practices, which often fail to meet the expectations of modern
-								businesses.
-							</p>
-							<a href="#" className="btn btn-primary rounded-pill mt-2">
-								Learn More
-							</a>
-						</div>
 					</div>
-					
-				</div>
-			</section>
-			{/* <section className="wrapper bg-light">
+				</section>
+				{/* <section className="wrapper bg-light">
 				<div className="container">
 					<div className="row gx-lg-8 gx-xl-12 gy-12 align-items-center">
 						<div className="col-lg-6 position-relative">
@@ -138,6 +138,7 @@ const page = () => {
 					</div>
 				</div>
 			</section> */}
+			</PageTransition>
 		</Fragment>
 	);
 };

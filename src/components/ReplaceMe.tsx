@@ -39,5 +39,5 @@ export default function ReplaceMe({ className, children }: Props) {
     return () => replace?.stop();
   }, []);
 
-  return <span className={className}>{children}</span>;
+  return <h2 className={className}>{children}</h2>;
 }

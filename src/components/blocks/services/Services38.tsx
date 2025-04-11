@@ -44,17 +44,24 @@ export default function Services38() {
 						<img src="/img/ex6.png" srcSet="/img/ex6.png 2x" alt="" />
 					</figure>
 
-					{/* <div className="div position-absolute d-none d-md-block" style={{ top: "15%", right: "-7%", zIndex: 2 }}>
-            <figure className="shadow-lg rounded">
-              <img src="/img/photos/stat1.jpg" srcSet="/img/photos/stat1@2x.jpg 2x" alt="" />
-            </figure>
-          </div> */}
+					<div className="div position-absolute d-none d-md-block" style={{ top: "15%", right: "-7%", zIndex: 2 }}>
+						<figure className="shadow-lg rounded">
+							<img style={{ width: "40%" }} src="/img/extra/e1.png" srcSet="/img/extra/e1.png" alt="" />
+						</figure>
+					</div>
 
-					{/* <div className="div position-absolute d-none d-md-block" style={{ bottom: "15%", right: "-7%", zIndex: 2 }}>
-            <figure className="shadow-lg rounded">
-              <img src="/img/photos/stat2.jpg" srcSet="/img/photos/stat2@2x.jpg 2x" alt="" />
-            </figure>
-          </div> */}
+					<div>
+						<figure className="shadow-lg rounded">
+							<img
+								className="div position-absolute d-none d-md-block w-50"
+								style={{ bottom: "15%", right: "-7%", zIndex: 2 }}
+								// style={{ width: "40%" }}
+								src="/img/extra/e2.png"
+								srcSet="/img/extra/e2.png"
+								alt=""
+							/>
+						</figure>
+					</div>
 				</div>
 			</div>
 

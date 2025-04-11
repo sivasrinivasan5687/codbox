@@ -17,7 +17,7 @@ const blogList = [
 		date: "14 Apr 2022",
 		image: "pc1",
 		title: "Bitumen",
-		description: `Bitumen is a black, sticky, and highly viscous form of petroleum. It’s typically found in natural deposits, like tar sands, or produced as a byproduct of crude oil refining. Bitumen is primarily made up of hydrocarbons and is commonly used in road construction, roofing, and waterproofing.`,
+		description: `Bitumen is a black, sticky, and highly viscous form of petroleum. It’s typically found in natural deposits, like tar sands, or produced as a byproduct of crude oil refining. Bitumen is primarily made up of hydrocarbons and is commonly used in road construction, roofing, and waterproofing.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt recusandae maiores adipisci vel. Nam iste esse sint doloremque vitae qui, eligendi fugit neque labore, nisi est placeat expedita aut!Earum labore neque officiis eligendi veniam quaerat sapiente quas dicta. Aliquid at praesentium inventore, ducimus officiis expedita facilis tempora, laborum voluptate, adipisci architecto iste. Omnis animi quos exercitationem dignissimos numquam. Quas deserunt eveniet, rem quidem dolor expedita delectus voluptatibus ipsa ducimus obcaecati, voluptatum ullam beatae quo tempora ipsam, suscipit repudiandae nobis? Ut, repellat corrupti quos sequi obcaecati architecto. Ab, nisi? Impedit, eveniet. Minus aliquam numquam maiores assumenda ex vitae repellat dolorum sunt quaerat. Quae, tempore, animi enim magni libero perferendis `,
 	},
 	{
 		id: 2,
@@ -25,7 +25,7 @@ const blogList = [
 		date: "29 Mar 2022",
 		image: "pc2",
 		title: "Coal",
-		description: `Coal is a black or brownish-black sedimentary rock primarily composed of carbon, along with various other elements like hydrogen, sulfur, oxygen, and nitrogen. It forms from the remains of plant material that has been subjected to heat and pressure over millions of years, typically in swampy, wet environments.`,
+		description: `Coal is a black or brownish-black sedimentary rock primarily composed of carbon, along with various other elements like hydrogen, sulfur, oxygen, and nitrogen. It forms from the remains of plant material that has been subjected to heat and pressure over millions of years, typically in swampy, wet environments.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt recusandae maiores adipisci vel. Nam iste esse sint doloremque vitae qui, eligendi fugit neque labore, nisi est placeat expedita aut!Earum labore neque officiis eligendi veniam quaerat sapiente quas dicta. Aliquid at praesentium inventore, ducimus officiis expedita facilis tempora, laborum voluptate, adipisci architecto iste. Omnis animi quos exercitationem dignissimos numquam. Quas deserunt eveniet, rem quidem dolor expedita delectus voluptatibus ipsa ducimus obcaecati, voluptatum ullam beatae quo tempora ipsam, suscipit repudiandae nobis? Ut, repellat corrupti quos sequi obcaecati architecto. Ab, nisi? Impedit, eveniet. Minus aliquam numquam maiores assumenda ex vitae repellat dolorum sunt quaerat. Quae, tempore, animi enim magni libero perferendis `,
 	},
 	{
 		id: 3,
@@ -33,7 +33,7 @@ const blogList = [
 		date: "26 Feb 2022",
 		image: "pc3",
 		title: "Gas Oil",
-		description: `Gas Oil is a middle distillate liquid refined from crude oil. It has many different names such as diesel and a variety of uses. Gas Oil is a “dual purpose” fuel. It has a high calorific value (heat content) and is thus recommended as a boiler fuel in industrial or agricultural installations with pressure jet burners e.g. grain dryers.`,
+		description: `Gas Oil is a middle distillate liquid refined from crude oil. It has many different names such as diesel and a variety of uses. Gas Oil is a “dual purpose” fuel. It has a high calorific value (heat content) and is thus recommended as a boiler fuel in industrial or agricultural installations with pressure jet burners e.g. grain dryers.    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt recusandae maiores adipisci vel. Nam iste esse sint doloremque vitae qui, eligendi fugit neque labore, nisi est placeat expedita aut!Earum labore neque officiis eligendi veniam quaerat sapiente quas dicta. Aliquid at praesentium inventore, ducimus officiis expedita facilis tempora, laborum voluptate, adipisci architecto iste. Omnis animi quos exercitationem dignissimos numquam. Quas deserunt eveniet, rem quidem dolor expedita delectus voluptatibus ipsa ducimus obcaecati, voluptatum ullam beatae quo tempora ipsam, suscipit repudiandae nobis? Ut, repellat corrupti quos sequi obcaecati architecto. Ab, nisi? Impedit, eveniet. Minus aliquam numquam maiores assumenda ex vitae repellat dolorum sunt quaerat. Quae, tempore, animi enim magni libero perferendis `,
 	},
 	{
 		id: 4,
@@ -41,7 +41,7 @@ const blogList = [
 		date: "7 Jan 2022",
 		image: "pc4",
 		title: "Petcoke",
-		description: `Petroleum coke, abbreviated coke or pet coke, is a final carbon-rich solid material that derives from oil refining and is one type of the group of fuels referred to as cokes. Pet coke is the coke that, in particular, derives from a final cracking process, a thermo-based chemical engineering process that splits long chain hydrocarbons of petroleum into shorter chains. `,
+		description: `Petroleum coke, abbreviated coke or pet coke, is a final carbon-rich solid material that derives from oil refining and is one type of the group of fuels referred to as cokes. Pet coke is the coke that, in particular, derives from a final cracking process, a thermo-based chemical engineering process that splits long chain hydrocarbons of petroleum into shorter chains.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt recusandae maiores adipisci vel. Nam iste esse sint doloremque vitae qui, eligendi fugit neque labore, nisi est placeat expedita aut!Earum labore neque officiis eligendi veniam quaerat sapiente quas dicta. Aliquid at praesentium inventore, ducimus officiis expedita facilis tempora, laborum voluptate, adipisci architecto iste. Omnis animi quos exercitationem dignissimos numquam. Quas deserunt eveniet, rem quidem dolor expedita delectus voluptatibus ipsa ducimus obcaecati, voluptatum ullam beatae quo tempora ipsam, suscipit repudiandae nobis? Ut, repellat corrupti quos sequi obcaecati architecto. Ab, nisi? Impedit, eveniet. Minus aliquam numquam maiores assumenda ex vitae repellat dolorum sunt quaerat. Quae, tempore, animi enim magni libero perferendis `,
 	},
 	{
 		id: 5,
@@ -49,7 +49,7 @@ const blogList = [
 		date: "7 Jan 2022",
 		image: "pc5",
 		title: "Fuel Oil",
-		description: `Fuel Oil is a fraction obtained from petroleum distillation, either as a distillate or a residue. Broadly speaking, Oil is any liquid petroleum product, which is burned in a furnace or boiler for the generation of heat or used in an engine for the generation of power, except oils having a flash point of approximately 40 oC (104 o F). `,
+		description: `Fuel Oil is a fraction obtained from petroleum distillation, either as a distillate or a residue. Broadly speaking, Oil is any liquid petroleum product, which is burned in a furnace or boiler for the generation of heat or used in an engine for the generation of power, except oils having a flash point of approximately 40 oC (104 o F).    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt recusandae maiores adipisci vel. Nam iste esse sint doloremque vitae qui, eligendi fugit neque labore, nisi est placeat expedita aut!Earum labore neque officiis eligendi veniam quaerat sapiente quas dicta. Aliquid at praesentium inventore, ducimus officiis expedita facilis tempora, laborum voluptate, adipisci architecto iste. Omnis animi quos exercitationem dignissimos numquam. Quas deserunt eveniet, rem quidem dolor expedita delectus voluptatibus ipsa ducimus obcaecati, voluptatum ullam beatae quo tempora ipsam, suscipit repudiandae nobis? Ut, repellat corrupti quos sequi obcaecati architecto. Ab, nisi? Impedit, eveniet. Minus aliquam numquam maiores assumenda ex vitae repellat dolorum sunt quaerat. Quae, tempore, animi enim magni libero perferendis `,
 	},
 	{
 		id: 6,
@@ -57,7 +57,7 @@ const blogList = [
 		date: "7 Jan 2022",
 		image: "pc6",
 		title: "Naphtha",
-		description: `Petroleum naphtha is an intermediate hydrocarbon liquid stream derived from the refining of crude oil with CAS-no 64742-48-9. It is most usually desulfurized and then catalytically reformed, which rearranges or restructures the hydrocarbon molecules in the naphtha as well as breaking some of the molecules into smaller molecules to produce a high-octane component of gasoline (or petrol).`,
+		description: `Petroleum naphtha is an intermediate hydrocarbon liquid stream derived from the refining of crude oil with CAS-no 64742-48-9. It is most usually desulfurized and then catalytically reformed, which rearranges or restructures the hydrocarbon molecules in the naphtha as well as breaking some of the molecules into smaller molecules to produce a high-octane component of gasoline (or petrol).   Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt recusandae maiores adipisci vel. Nam iste esse sint doloremque vitae qui, eligendi fugit neque labore, nisi est placeat expedita aut!Earum labore neque officiis eligendi veniam quaerat sapiente quas dicta. Aliquid at praesentium inventore, ducimus officiis expedita facilis tempora, laborum voluptate, adipisci architecto iste. Omnis animi quos exercitationem dignissimos numquam. Quas deserunt eveniet, rem quidem dolor expedita delectus voluptatibus ipsa ducimus obcaecati, voluptatum ullam beatae quo tempora ipsam, suscipit repudiandae nobis? Ut, repellat corrupti quos sequi obcaecati architecto. Ab, nisi? Impedit, eveniet. Minus aliquam numquam maiores assumenda ex vitae repellat dolorum sunt quaerat. Quae, tempore, animi enim magni libero perferendis `,
 	},
 	{
 		id: 7,
@@ -65,7 +65,7 @@ const blogList = [
 		date: "7 Jan 2022",
 		image: "pc7",
 		title: "Crude Oil",
-		description: `Crude oil is a naturally occurring, unrefined petroleum product composed of hydrocarbon deposits and other organic materials. A type of fossil fuel, crude oil can be refined to produce usable products such as gasoline, diesel and various forms of petrochemicals. `,
+		description: `Crude oil is a naturally occurring, unrefined petroleum product composed of hydrocarbon deposits and other organic materials. A type of fossil fuel, crude oil can be refined to produce usable products such as gasoline, diesel and various forms of petrochemicals.   Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt recusandae maiores adipisci vel. Nam iste esse sint doloremque vitae qui, eligendi fugit neque labore, nisi est placeat expedita aut!Earum labore neque officiis eligendi veniam quaerat sapiente quas dicta. Aliquid at praesentium inventore, ducimus officiis expedita facilis tempora, laborum voluptate, adipisci architecto iste. Omnis animi quos exercitationem dignissimos numquam. Quas deserunt eveniet, rem quidem dolor expedita delectus voluptatibus ipsa ducimus obcaecati, voluptatum ullam beatae quo tempora ipsam, suscipit repudiandae nobis? Ut, repellat corrupti quos sequi obcaecati architecto. Ab, nisi? Impedit, eveniet. Minus aliquam numquam maiores assumenda ex vitae repellat dolorum sunt quaerat. Quae, tempore, animi enim magni libero perferendis `,
 	},
 	{
 		id: 8,
@@ -73,7 +73,7 @@ const blogList = [
 		date: "7 Jan 2022",
 		image: "pc8",
 		title: "TMT Steel",
-		description: `TMT (Thermo-Mechanically Treated) steel is a high-strength reinforcement bar widely used in construction projects due to its superior strength, flexibility, and durability. The manufacturing process of TMT steel involves passing hot steel billets through a series of rolling mills, followed by controlled water quenching. `,
+		description: `TMT (Thermo-Mechanically Treated) steel is a high-strength reinforcement bar widely used in construction projects due to its superior strength, flexibility, and durability. The manufacturing process of TMT steel involves passing hot steel billets through a series of rolling mills, followed by controlled water quenching.     Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sunt recusandae maiores adipisci vel. Nam iste esse sint doloremque vitae qui, eligendi fugit neque labore, nisi est placeat expedita aut!Earum labore neque officiis eligendi veniam quaerat sapiente quas dicta. Aliquid at praesentium inventore, ducimus officiis expedita facilis tempora, laborum voluptate, adipisci architecto iste. Omnis animi quos exercitationem dignissimos numquam. Quas deserunt eveniet, rem quidem dolor expedita delectus voluptatibus ipsa ducimus obcaecati, voluptatum ullam beatae quo tempora ipsam, suscipit repudiandae nobis? Ut, repellat corrupti quos sequi obcaecati architecto. Ab, nisi? Impedit, eveniet. Minus aliquam numquam maiores assumenda ex vitae repellat dolorum sunt quaerat. Quae, tempore, animi enim magni libero perferendis `,
 	},
 ];
 

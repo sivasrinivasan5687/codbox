@@ -2,6 +2,7 @@
 import { Footer4 } from "components/blocks/footer";
 import NavbarOne from "components/blocks/navbar/navbar-1";
 import { Portfolio5 } from "components/blocks/portfolio";
+import { PageTransition } from "components/PageTransition";
 import Breadcrumb from "components/reuseable/Breadcrumb";
 import BreadCrumb from "components/reuseable/breadcrumb/BreadCrumb";
 import { portfolioList4 } from "data/portfolio";
@@ -15,8 +16,10 @@ const page = () => {
 	];
 	return (
 		<>
-			<BreadCrumb links={breadcrumb} title="Products" />
-			<Portfolio5 forward={true} data={portfolioList4} />
+			<PageTransition>
+				<BreadCrumb links={breadcrumb} title="Products" />
+				<Portfolio5 forward={true} data={portfolioList4} />
+			</PageTransition>
 		</>
 	);
 };

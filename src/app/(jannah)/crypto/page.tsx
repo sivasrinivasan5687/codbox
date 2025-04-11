@@ -1,16 +1,16 @@
-import { About34 } from 'components/blocks/about';
-import { Process1 } from 'components/blocks/process'
-import React from 'react'
+import { About34 } from "components/blocks/about";
+import { Process1 } from "components/blocks/process";
+import { PageTransition } from "components/PageTransition";
+import React from "react";
 
 const page = () => {
-  return (
-		<div className="">
+	return (
+		<PageTransition>
 			<About34 />
 
 			<Process1 />
-
-		</div>
+		</PageTransition>
 	);
-}
+};
 
-export default page
+export default page;

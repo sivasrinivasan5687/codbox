@@ -12,15 +12,21 @@ export default function About37() {
 						<img src="/img/ex7.png" srcSet="/img/ex7.png 2x" alt="" />
 					</figure>
 
-					{/* <div className="div position-absolute d-none d-md-block" style={{ bottom: "15%", left: "-7%", zIndex: 2 }}>
-            <figure className="shadow-lg rounded">
-              <img src="/img/photos/stat3.jpg" srcSet="/img/photos/stat3@2x.jpg 2x" alt="" />
-            </figure>
-          </div> */}
+					<div className="div position-absolute d-none d-md-block" style={{ bottom: "15%", left: "-7%", zIndex: 2 }}>
+						<figure className="shadow-lg rounded">
+							<img style={{ width: "60%" }} src="/img/extra/e3.png" srcSet="/img/extra/e3.png" alt="" />
+						</figure>
+					</div>
 				</div>
 			</div>
 
-			<div className="col-lg-5">
+			<div className="col-lg-5 position-relative">
+				<img
+					style={{ top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", opacity: "0.2" }}
+					className="position-absolute"
+					src="img/extra/e6.png"
+					alt=""
+				/>
 				<h2 className="fs-16 text-uppercase text-primary mb-3">Why Choose Us?</h2>
 				<h2 className="display-2 mb-7">Your End-to-End Global Trade Partner</h2>
 
