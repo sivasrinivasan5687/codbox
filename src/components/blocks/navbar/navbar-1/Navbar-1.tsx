@@ -70,7 +70,7 @@ export default function NavbarOne({
 							style={{ width: 220, height: 80, objectFit: "contain", marginRight: 10, paddingBottom: 10 }}
 							alt="logo"
 							src={`/img/EVIANSINTL-LOGO.webp`}
-							srcSet={`/img/EVIANSINTL-LOGO@2x.webp 2x`}
+							srcSet={`/img/EVIANSINTL-LOGO.webp`}
 						/>
 					}
 				/>
