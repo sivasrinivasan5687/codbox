@@ -40,3 +40,14 @@ Author URI:	https://ui-lib.com
 
 // User custom styles
 @import "user";
+
+.ev-text-primary {
+	color: #005a2a;
+}
+.ev-bg-primary {
+	background: #006d3a;
+	// background: linear-gradient(90deg, rgba(0, 109, 58, 1) 23%, rgba(10, 10, 10, 1) 100%);
+}
+.ev-gradient-bg{
+    background: linear-gradient(90deg, rgba(0, 109, 58, 1) 23%, rgba(10, 10, 10, 1) 100%);
+}

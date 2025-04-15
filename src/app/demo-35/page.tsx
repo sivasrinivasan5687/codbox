@@ -21,7 +21,7 @@ export default function Demo34() {
 					logoAlt="noorul-logo"
 					navClassName="navbar navbar-expand-lg center-nav navbar-dark  bg-nav bg-white"
 					button={
-						<Link href="#" className="btn btn-sm btn-primary rounded">
+						<Link href="/contact" className="btn btn-sm  rounded ev-bg-primary text-white">
 							Contact
 						</Link>
 					}

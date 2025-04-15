@@ -7,7 +7,7 @@ export default function Testimonial29() {
 			<div className="card-body py-14 px-lg-0">
 				<div className="row text-center">
 					<div className="col-lg-9 col-xl-8 mx-auto">
-						<h2 className="fs-16 text-uppercase text-primary mb-3">Happy Customers</h2>
+						<h2 className="fs-16 text-uppercase ev-text-primary mb-3">Happy Customers</h2>
 						<h3 className="display-2 mb-10 px-xxl-10">Don’t take our word for it — hear it from our clients.</h3>
 					</div>
 				</div>

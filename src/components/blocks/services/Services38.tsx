@@ -31,7 +31,7 @@ const services = [
 ];
 
 export default function Services38() {
-  return (
+	return (
 		<div className="row gx-0 gy-10 gy-md-13 gy-lg-0 mb-16 mb-md-18 align-items-center">
 			<div className="col-lg-6 position-relative">
 				<div className="p-9 pe-0 p-xxl-11 pe-xxl-0">
@@ -66,7 +66,7 @@ export default function Services38() {
 			</div>
 
 			<div className="col-lg-5 ms-auto">
-				<h2 className="fs-16 text-uppercase text-primary mb-3">Our Features</h2>
+				<h2 className="fs-16 text-uppercase ev-text-primary mb-3">Our Features</h2>
 				<h2 className="display-2 mb-8">Tailored Trade Solutions to Help You Scale Globally</h2>
 
 				<div className="row gy-6">

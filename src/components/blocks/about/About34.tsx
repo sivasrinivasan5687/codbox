@@ -32,7 +32,7 @@ export default function About34() {
 							fail to meet the expectations of modern businesses.
 						</p>
 
-						<Link href="#" className="btn btn-primary btn-icon btn-icon-end mt-2">
+						<Link href="#" className="btn ev-bg-primary text-white btn-icon btn-icon-end mt-2">
 							Learn More <i className="uil uil-arrow-up-right" />
 						</Link>
 					</div>

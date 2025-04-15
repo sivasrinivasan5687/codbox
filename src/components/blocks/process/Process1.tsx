@@ -28,7 +28,7 @@ export default function Process1() {
 					revolutionalised ommerce and industry across the world.
 				</p>
 
-				<NextLink href="#" title="Learn More" className="btn btn-primary rounded-pill mb-0" />
+				<NextLink href="#" title="Learn More" className="btn ev-bg-primary text-white rounded-pill mb-0" />
 			</div>
 		</div>
 	);

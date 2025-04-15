@@ -11,10 +11,10 @@ const page = () => {
 	return (
 		<>
 			<PageTransition>
-				<Portfolio5 forward={false} data={electronics} />
+				{/* <Portfolio5 forward={false} data={electronics} /> */}
+			<Project/>
 			</PageTransition>
 
-			{/* <Project/> */}
 		</>
 	);
 };

@@ -51,7 +51,7 @@ export default function Process22() {
 			</div>
 
 			<div className="col-lg-5 ms-auto">
-				<h2 className="fs-16 text-uppercase text-primary mb-3">How It Works?</h2>
+				<h2 className="fs-16 text-uppercase ev-text-primary mb-3">How It Works?</h2>
 				<h2 className="display-2 mb-7">Here are the 3 working steps on success.</h2>
 				<div className="d-flex flex-row pe-xxl-15 mb-6">
 					<div>

@@ -51,7 +51,7 @@ const page = () => {
 								</div>
 							</div>
 							<div className="col-lg-6">
-								<h2 className="display-5 mb-3">More about us</h2>
+								<h2 className="display-5 mb-3 ev-text-primary">More about us</h2>
 								<p className="lead fs-lg">LIMITATIONS OF TRADITIONAL BANKING SYSTEMS</p>
 								<p>
 									In the evolving landscape of global commerce, the traditional banking system faces significant challenges
@@ -63,7 +63,7 @@ const page = () => {
 									critical shortcomings of conventional banking practices, which often fail to meet the expectations of
 									modern businesses.
 								</p>
-								<a href="#" className="btn btn-primary rounded-pill mt-2">
+								<a href="#" className="btn  rounded-pill mt-2 ev-bg-primary text-white">
 									Learn More
 								</a>
 							</div>

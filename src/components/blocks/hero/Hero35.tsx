@@ -49,7 +49,7 @@ export default function Hero35() {
 										<CountUp end={1000} suffix="+" />
 									</h3> */}
 									{/* <p className="fs-15 lh-sm mb-0 text-nowrap"></p> */}
-									<button className="btn btn-primary">Get started</button>
+									<button className="btn ev-bg-primary text-white">Get started</button>
 								</div>
 							</div>
 						</div>
@@ -59,7 +59,7 @@ export default function Hero35() {
 
 			<div className="col-lg-5 position-relative">
 				{/* <img className="position-absolute"  style={{top:0,left:0 , width:"20%"}} src="/img/extra/e7.png" alt="" /> */}
-				<h2 className="fs-16 text-uppercase text-primary mb-3">EVIANSINTL</h2>
+				<h2 className="fs-16 text-uppercase ev-text-primary mb-3">EVIANSINTL</h2>
 
 				<h1 className="display-1 fs-58 mb-5">Global Trade Made Simple</h1>
 				<p className="lead fs-20 lh-sm mb-6 pe-md-10">
@@ -67,7 +67,7 @@ export default function Hero35() {
 					take care of it all.
 				</p>
 
-				<ReplaceMe className="rotator-fade text-primary ">
+				<ReplaceMe className="rotator-fade ev-text-primary ">
 					Eviansintl Transaction ,Instant Exchange,Investment Banking
 				</ReplaceMe>
 
@@ -107,9 +107,12 @@ export default function Hero35() {
 							</li>
 						</ul>
 					</div>
-				</div> */}
+				</div> */} 
 				<br />
-				<a href="#" className="btn btn-lg btn-primary btn-icon btn-icon-end rounded">
+				<a
+					href="#"
+					className="btn btn-lg  btn-icon btn-icon-end rounded "
+				>
 					Explore Now <i className="uil uil-arrow-up-right" />
 				</a>
 			</div>

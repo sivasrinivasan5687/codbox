@@ -8,13 +8,13 @@ export default function Footer4() {
 		<footer style={{ backgroundColor: "white" }}>
 			<div className="container py-13 py-md-15">
 				<div className="row gy-6 gy-lg-0">
-					<div className="col-md-4 col-lg-3">
+					<div className="col-md-6 col-lg-3">
 						<div className="widget">
 							<img
 								style={{ width: 200 }}
 								className="mb-4"
-								src="/img/EVIANSINTL-LOGO.webp"
-								srcSet="/img/EVIANSINTL-LOGO.webp 2x"
+								src="/img/EVIANSINTL-LOGO.png"
+								srcSet="/img/EVIANSINTL-LOGO.png 2x"
 								alt="Evian Intl Logo"
 							/>
 							<p>
@@ -31,7 +31,7 @@ export default function Footer4() {
 						</div>
 					</div>
 
-					<div className="col-md-4 col-lg-3">
+					<div className="col-md-6 col-lg-3">
 						<div className="widget">
 							<h4 className="widget-title mb-3">Products</h4>
 							{footerProducts.map((prod) => (
@@ -43,7 +43,7 @@ export default function Footer4() {
 						</div>
 					</div>
 
-					<div className="col-md-4 col-lg-3">
+					<div className="col-md-6 col-lg-3">
 						<div className="widget">
 							<h4 className="widget-title mb-3">Frozen Foods</h4>
 							<ul className="list-unstyled text-reset mb-0">
@@ -56,7 +56,7 @@ export default function Footer4() {
 						</div>
 					</div>
 
-					<div className="col-md-12 col-lg-3">
+					<div className="col-md-6 col-lg-3">
 						<div className="widget">
 							<h4 className="widget-title mb-3">Commodity</h4>
 							{commodity.map((comm) => (

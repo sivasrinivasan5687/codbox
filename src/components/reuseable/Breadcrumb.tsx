@@ -18,14 +18,14 @@ export default function Breadcrumb({ data = breadcrumb, className = "" }: Breadc
       <ol className={`breadcrumb ${className}`}>
         {data.map(({ id, title, url }, i) => {
           return data.length - 1 === i ? (
-            <li key={id} className="breadcrumb-item text-white active" aria-current="page">
-              {title}
-            </li>
-          ) : (
-            <li className="breadcrumb-item text-white" key={id}>
-              <NextLink title={title} href={url} />
-            </li>
-          );
+						<li key={id} className="breadcrumb-item ev-text-primary active" aria-current="page">
+							{title}
+						</li>
+					) : (
+						<li className="breadcrumb-item ev-text-primary" key={id}>
+							<NextLink title={title} href={url} />
+						</li>
+					);
         })}
       </ol>
     </nav>

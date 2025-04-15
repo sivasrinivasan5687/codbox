@@ -69,8 +69,8 @@ export default function NavbarOne({
 						<img
 							style={{ width: 120, height: 80, objectFit: "contain",  paddingBottom: 10 }}
 							alt="logo"
-							src={`/img/EVIANSINTL-LOGO.webp`}
-							srcSet={`/img/EVIANSINTL-LOGO.webp`}
+							src={`/img/EVIANSINTL-LOGO.png`}
+							srcSet={`/img/EVIANSINTL-LOGO.png`}
 						/>
 					}
 				/>

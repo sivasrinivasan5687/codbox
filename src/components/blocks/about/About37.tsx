@@ -1,5 +1,5 @@
 export default function About37() {
-  return (
+	return (
 		<div className="row gx-0 gy-10 gy-md-13 gy-lg-0 mb-16 mb-md-18 align-items-center">
 			<div className="col-lg-6 order-lg-2 ms-auto position-relative">
 				<div className="p-9 ps-0 p-xxl-11 ps-xxl-0">
@@ -27,7 +27,7 @@ export default function About37() {
 					src="img/extra/e6.png"
 					alt=""
 				/>
-				<h2 className="fs-16 text-uppercase text-primary mb-3">Why Choose Us?</h2>
+				<h2 className="fs-16 text-uppercase  mb-3 ev-text-primary">Why Choose Us?</h2>
 				<h2 className="display-2 mb-7">Your End-to-End Global Trade Partner</h2>
 
 				<div className="accordion accordion-wrapper" id="accordionExample">
