@@ -15,7 +15,7 @@ const page = () => {
 		<>
 		<PageTransition>
 			<BreadCrumb links={breadcrumb} title="Frozen Foods" />
-			<Portfolio8 />
+			<Portfolio8 products={false} />
 		</PageTransition>
 		</>
 	);

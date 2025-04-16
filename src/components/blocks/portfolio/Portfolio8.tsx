@@ -1,10 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 // CUSTOM DATA
-import { portfolioList5 } from "data/portfolio";
+import { portfolioList4, portfolioList5 } from "data/portfolio";
 
-export default function Portfolio8() {
-  return (
+interface Portfolio8Props {
+	products: boolean;
+}
+export default function Portfolio8({ products = false }: Portfolio8Props) {
+	let data = products ? portfolioList4 : portfolioList5;
+	return (
 		<section className="wrapper bg-light">
 			<div className="container py-14 py-md-17">
 				<div className="row mb-8 text-center">
@@ -16,12 +20,12 @@ export default function Portfolio8() {
 
 				<div className="grid grid-view projects-masonry">
 					<div className="row gx-md-8 gy-10 gy-md-13 isotope">
-						{portfolioList5.map(({ id, image, title, category, color, description }) => (
-							<div className="project item col-md-6 col-xl-4 product" key={id}>
+						{data.map(({ id, image, title, category, description }) => (
+							<div className="project item col-md-6 col-xl-4 product " key={id}>
 								<figure className="lift rounded mb-6">
-									<Link href={`/product/${id}-frozenfoods`}>
+									<Link href={`/product/${id}-${products ? "products" : "frozenfoods"}`}>
 										<Image
-											src={`/img/frozenfoods/${image}.png`}
+											src={`/img/${products ? "products" : "frozenfoods"}/${image}.png`}
 											alt={title}
 											width={1300}
 											height={1132}

@@ -35,7 +35,7 @@ export default function Demo14() {
         <Contact9 />
 
         {/* ========== projects section ========== */}
-        <Portfolio8 />
+        <Portfolio8 products={false} />
 
         {/* ========== facts section ========== */}
         <Facts10 />

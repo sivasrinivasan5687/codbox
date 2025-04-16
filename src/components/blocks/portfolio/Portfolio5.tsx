@@ -1,5 +1,4 @@
-// "use client";
-
+"use client";
 import clsx from "clsx";
 // GLOBAL CUSTOM COMPONENTS
 import LightBox from "components/LightBox";
