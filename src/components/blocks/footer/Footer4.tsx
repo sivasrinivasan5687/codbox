@@ -13,8 +13,8 @@ export default function Footer4() {
 							<img
 								style={{ width: 200 }}
 								className="mb-4"
-								src="/img/EVIANSINTL-LOGO.png"
-								srcSet="/img/EVIANSINTL-LOGO.png 2x"
+								src="/img/EVIANSINTL-LOGO.webp"
+								srcSet="/img/EVIANSINTL-LOGO.webp 2x"
 								alt="Evian Intl Logo"
 							/>
 							<p>
